@@ -1,0 +1,28 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Чек с зубчатым нижним краем. -->
+    <path
+        android:fillColor="#F5FAF5"
+        android:pathData="M42,29h24a4,4 0,0 1,4 4v40l-4,-2.6 -4,2.6 -4,-2.6 -4,2.6 -4,-2.6 -4,2.6 -4,-2.6 -4,2.6V33a4,4 0,0 1,4 -4z" />
+    <!-- Строки чека. -->
+    <path
+        android:fillColor="#8EB7A0"
+        android:pathData="M45,37h18a1.8,1.8 0,0 1,0 3.6H45a1.8,1.8 0,0 1,0 -3.6zM45,44h12a1.6,1.6 0,0 1,0 3.2H45a1.6,1.6 0,0 1,0 -3.2z" />
+    <!-- Миниатюрный QR-код. -->
+    <path
+        android:fillColor="#255C4A"
+        android:fillType="evenOdd"
+        android:pathData="M45,53h8v8h-8zM47,55v4h4v-4zM57,53h8v8h-8zM59,55v4h4v-4zM45,65h8v8h-8zM47,67v4h4v-4zM57,65h3v3h-3zM62,65h3v3h-3zM57,70h3v3h-3zM62,70h3v3h-3z" />
+    <!-- Уголки рамки сканера. -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#A9DBC0"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.4"
+        android:pathData="M33,43v-5a5,5 0,0 1,5 -5h1M69,33h1a5,5 0,0 1,5 5v5M33,63v5a5,5 0,0 0,5 5h1M69,73h1a5,5 0,0 0,5 -5v-5" />
+</vector>
